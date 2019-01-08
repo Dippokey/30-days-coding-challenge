@@ -1,0 +1,173 @@
+html,
+body{
+  font-family: Helvitica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+.btn{
+  text-decoration: underline;
+}
+
+.logo{
+  height: 50px;
+}
+
+.header{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  margin:0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+ .base1{
+   height: 700px;
+   width: 1200px;
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: inline-flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin-bottom: 30px;
+
+
+ }
+
+.main{
+  text-align: center;
+
+}
+
+.base2{
+
+  width: 1200px;
+  display: inline-flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+h2{
+
+  margin: 5px auto;
+
+
+}
+
+
+
+h4{
+  margin: 5px auto;
+}
+
+
+ul{
+  list-style-type: none;
+
+}
+
+li{
+  display: inline-block;
+}
+
+
+.main2{
+  width: 1000px;
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.smallpics{
+  height: 200px;
+  width: 300px;
+}
+
+.main3{
+  max-width: 1000px;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+.main3 h4{
+  margin: 10px 0;
+}
+
+.fullsmallpics{
+  margin: 10px 0;
+}
+
+.main4{
+  text-align: center;
+}
+
+.locationcontainer{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+
+
+
+}
+
+.location{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+
+
+
+}
+.address1{
+  width: 300px;
+  padding: : 15px 40px;
+
+
+
+}
+
+.address{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+p{
+  display: inline-flex;
+}
+
+.main4{
+
+}
+a:link{
+  color: seashell;
+}
+
+a:visited{
+  color: seashell;
+}
